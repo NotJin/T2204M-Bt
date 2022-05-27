@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include <algorithm>
+
 int tinhtongchuso(int n){
 	int tmp;
 	int sum = 0;
