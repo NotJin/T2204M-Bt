@@ -40,9 +40,9 @@ void findMaxPrime(int x, int arr[]){
 }
 
 int SoNhoNhat(int arr[], int n){
-    int min = arr[0];
+    int min = abs(arr[0]);
     for (int i=1; i<n; i++)
-        min = (min < arr[i])? min: arr[i];
+        min = (min < abs(arr[i]))? min: abs(arr[i]);
     return min;
 }
 //kiem tra xem uoc so co phai la uoc so chung lon nhat cua mang hay ko?
